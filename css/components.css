@@ -1,0 +1,168 @@
+/************************************************************/
+/*                         FILE INPUT                       */
+/************************************************************/
+#FileInputId {
+    display: none;
+}
+
+#FileLabelId {
+    padding: 10px 20px;
+    background: #db3126;
+    border: 1px solid #333333;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    transition: 0.5s
+}
+
+#FileLabelId:hover {
+    background: #ffffff;
+    color: #db3126; 
+}
+
+
+/************************************************************/
+/*                        COPY BUTTON                       */
+/************************************************************/
+.copy-button {
+    padding: 5px 10px;
+    background: #248094;
+    border: 1px solid #333333;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    transition: 0.5s
+}
+
+.copy-button:hover {
+    background: #ffffff;
+    color: #248094; 
+}
+
+
+/************************************************************/
+/*                        VIEW BUTTON                       */
+/************************************************************/
+.view-button {
+    padding: 5px 10px;
+    background: #318062;
+    border: 1px solid #333333;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    transition: 0.5s
+}
+
+.view-button:hover {
+    background: #ffffff;
+    color: #318062; 
+}
+
+
+/************************************************************/
+/*                       TOGGLE BUTTON                      */
+/************************************************************/
+.toggle-button-container {
+    display: inline-flex;
+    height: fit-content;
+    margin: 10px;
+}
+
+.left-toggle-button {
+    padding: 6px 15px;
+    cursor: pointer;
+    transition: transform .2s;
+    border: 1px solid #999999;
+    background: #ffffff;
+    color: #666666;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.left-toggle-button-selected {
+    padding: 6px 15px;
+    cursor: pointer;
+    transition: transform .2s;
+    border: 1px solid #1a6fb0;
+    background: #d9eeff;
+    color: #1a6fb0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.right-toggle-button {
+    padding: 6px 15px;
+    cursor: pointer;
+    transition: transform .2s;
+    border: 1px solid #999999;
+    background: #ffffff;
+    color: #666666;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.right-toggle-button-selected {
+    padding: 6px 15px;
+    cursor: pointer;
+    transition: transform .2s;
+    border: 1px solid #1a6fb0;
+    background: #d9eeff;
+    color: #1a6fb0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.left-toggle-button:hover {
+    color: #1a6fb0;
+    transform: scale(1.05);
+}
+
+.right-toggle-button:hover {
+    color: #1a6fb0;
+    transform: scale(1.05);
+}
+
+.left-toggle-button-selected:hover {
+    color: #053153;
+    transform: scale(1.05);
+}
+
+.right-toggle-button-selected:hover {
+    color: #053153;
+    transform: scale(1.05);
+}
+
+
+/************************************************************/
+/*                         JSON CODE                        */
+/************************************************************/
+#PreviewJsonCodeId {
+    display: block;
+}
+
+#BeautifyJsonCodeId {
+    display: none;
+}
